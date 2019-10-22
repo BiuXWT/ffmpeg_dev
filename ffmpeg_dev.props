@@ -3,13 +3,19 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <IncludePath>D:\DebugFile\ffmpeg_dev\ffmpeg\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\DebugFile\ffmpeg_dev\ffmpeg\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\BiuXWT-github\ffmpeg_dev\ffmpeg\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\BiuXWT-github\ffmpeg_dev\ffmpeg\lib;$(LibraryPath)</LibraryPath>
+    <SourcePath>$(SourcePath)</SourcePath>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <Link>
       <AdditionalDependencies>avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;postproc.lib;swresample.lib;swscale.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\BiuXWT-github\ffmpeg_dev\ffmpeg\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>D:\BiuXWT-github\ffmpeg_dev\ffmpeg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup />
 </Project>

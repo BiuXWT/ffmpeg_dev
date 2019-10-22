@@ -1,1 +1,8 @@
-﻿
+﻿  main.cpp
+d:\biuxwt-github\ffmpeg_dev\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  resample.cpp
+d:\biuxwt-github\ffmpeg_dev\ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\biuxwt-github\ffmpeg_dev\audio_resampling\resample.cpp(34): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+d:\biuxwt-github\ffmpeg_dev\audio_resampling\resample.cpp(67): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  audio_resampling.vcxproj -> D:\BiuXWT-github\ffmpeg_dev\x64\Debug\audio_resampling.exe
